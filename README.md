@@ -1,10 +1,12 @@
 🧾 Fake Receipt Detection Web App
 A Machine Learning + FastAPI + Frontend Project
+
 📌 Overview
 Fake receipts are often used for fraud, reimbursements, and manipulation. This project provides a fast, lightweight web application that detects Real vs. Fake receipts using a CNN-based machine learning model served through FastAPI.
 The frontend offers a responsive drag‑and‑drop upload UI, real‑time image preview, and instant prediction results.
 
 🚀 Features
+
 📂 Upload or drag‑and‑drop receipt images
 
 🖼 Real‑time image preview before prediction
