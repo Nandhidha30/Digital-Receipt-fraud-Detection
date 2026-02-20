@@ -7,19 +7,19 @@ The frontend offers a responsive drag‑and‑drop upload UI, real‑time image 
 
 🚀 Features
 
-📂 Upload or drag‑and‑drop receipt images
+Upload or drag‑and‑drop receipt images
 
-🖼 Real‑time image preview before prediction
+Real‑time image preview before prediction
 
-⚡ Instant classification through FastAPI backend
+Instant classification through FastAPI backend
 
-🧠 PyTorch CNN model trained to detect fake vs. real receipts
+PyTorch CNN model trained to detect fake vs. real receipts
 
-🔍 Confidence score display for transparency
+Confidence score display for transparency
 
-💻 Fully responsive UI built with HTML, CSS & JavaScript
+Fully responsive UI built with HTML, CSS & JavaScript
 
-🔗 Smooth frontend ↔ backend communication via Fetch API
+Smooth frontend ↔ backend communication via Fetch API
 
 🧠 Machine Learning Model
 Framework: PyTorch
