@@ -1,12 +1,12 @@
-🧾 Fake Receipt Detection Web App
+Fake Receipt Detection Web App
 A Machine Learning + FastAPI + Frontend Project
 
-📌 Overview
+Overview
 Fake receipts are often used for fraud, reimbursements, and manipulation. This project provides a fast, lightweight web application that detects Real vs. Fake receipts using a CNN-based machine learning model served through FastAPI.
 
 The frontend offers a responsive drag-and-drop upload UI, real-time image preview, and instant prediction results.
 
-🚀 Features
+Features
 - Upload or drag-and-drop receipt images
 - Real-time image preview before prediction
 - Instant classification through FastAPI backend
@@ -15,7 +15,7 @@ The frontend offers a responsive drag-and-drop upload UI, real-time image previe
 - Fully responsive UI built with HTML, CSS & JavaScript
 - Smooth frontend ↔ backend communication via Fetch API
 
-🧠 Machine Learning Model
+Machine Learning Model
 Framework: PyTorch  
 Model Type: Custom CNN / ResNet18 fine-tuned  
 Input: Receipt images  
@@ -25,32 +25,32 @@ REAL
 FAKE  
 confidence score (0 to 1)
 
-⚙️ Installation & Setup
+Installation & Setup
 
-1️⃣ Clone the Repository
-git clone https://github.com/<your-username>/Fake-Receipt-Detection.git
+Clone the Repository
+git clone https://github.com/nandhidha30/Fake-Receipt-Detection.git
 cd Fake-Receipt-Detection
 
-2️⃣ Create Virtual Environment
+Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate
 
-3️⃣ Install Dependencies
+Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Run the Backend
+Run the Backend
 uvicorn app:app --reload
 
 Backend runs at:
 http://127.0.0.1:8000
 
-🎯 How It Works
+How It Works
 1. User uploads a receipt image  
 2. Frontend sends the image to FastAPI  
 3. Backend loads the CNN model and classifies the image  
 4. Frontend displays result and confidence score
 
-📬 API Endpoint
+API Endpoint
 POST /predict
 
 Returns:
